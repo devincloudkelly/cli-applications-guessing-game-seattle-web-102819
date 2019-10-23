@@ -12,6 +12,6 @@ def run_guessing_game
       puts "Sorry! The computer guessed #{comp_num}."
     end
   else
-    puts 
+    puts "You guessed the correct number!"
   end
 end
