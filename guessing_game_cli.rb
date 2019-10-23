@@ -2,9 +2,9 @@
 
 
 def run_guessing_game
-  comp_num = rand(6) +1
+  comp_num = (rand(6) +1).to_s
   puts "Guess a number between 1 and 6."
-  user_num = gets.chomp.to_i 
+  user_num = gets.chomp
   if user_num != comp_num
     if user_num == "exit"
       puts "Goodbye!"
